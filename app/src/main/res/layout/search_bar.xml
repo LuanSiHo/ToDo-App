@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/colorPrimary"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageButton
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_back"
+        android:id="@+id/img_btn_back"
+        android:background="@drawable/search_button_shape"
+        />
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_search"
+        android:layout_marginLeft="46dp"
+        android:layout_marginRight="16dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search"
+        android:id="@+id/edt_search"
+        android:textSize="18sp"
+        android:background="@null"
+        />
+</android.support.v7.widget.Toolbar>
