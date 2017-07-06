@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Todo</string>
+    <string name="task_title">Title</string>
+    <string name="task_time">Time</string>
+    <string name="task_date">Date</string>
+    <string name="add_to_list">Add to List</string>
+    <string name="repeat">Repeat</string>
+    <string name="date_not_set">Date not set</string>
+    <string name="time_not_set">Time not set</string>
 </resources>

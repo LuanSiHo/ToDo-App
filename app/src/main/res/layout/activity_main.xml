@@ -15,20 +15,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
             <include
                 android:id="@+id/search_bar"
                 layout="@layout/search_bar">
-
             </include>
-
             <include
                 android:id="@+id/app_bar"
                 layout="@layout/app_bar">
-
             </include>
-
-
 
         </FrameLayout>
 
@@ -49,6 +43,5 @@
         app:fabSize="normal">
 
     </android.support.design.widget.FloatingActionButton>
-
 
 </android.support.design.widget.CoordinatorLayout>
