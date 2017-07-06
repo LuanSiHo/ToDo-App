@@ -3,5 +3,8 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
-    <dimen name="spinner_margin">16dp</dimen>
+    <dimen name="spinner_margin">9dp</dimen>
+    <dimen name="activity_new_task_title_margin_horizontal">12dp</dimen>
+    <dimen name="activity_new_task_content_margin">12dp</dimen>
+    <dimen name="activity_new_task_title_padding">36dp</dimen>
 </resources>

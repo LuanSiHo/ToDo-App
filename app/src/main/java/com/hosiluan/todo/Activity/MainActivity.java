@@ -1,5 +1,6 @@
 package com.hosiluan.todo.Activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
@@ -67,6 +68,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(MainActivity.this, "hello boys", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(MainActivity.this,NewTaskActivity.class));
             }
         });
 
@@ -76,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "ahihi", Toast.LENGTH_SHORT).show();
                 setSupportActionBar(mSearchToolbar);
                 mDefaultToolbar.setVisibility(View.INVISIBLE);
-//                mSearchToolbar.setVisibility(View.VISIBLE);
+//              mSearchToolbar.setVisibility(View.VISIBLE);
             }
         });
 
